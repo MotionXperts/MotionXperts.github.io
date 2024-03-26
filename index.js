@@ -20,7 +20,7 @@ async function loadEpoch(node, path, video_name) {
       });
 }
 async function loadText(){    
-    await fetch(  "https://github.com/MotionXperts/MotionXperts.github.io/blob/main/test_folder/index.txt")
+    await fetch("./test_folder/index.txt")
         .then(function (response) {
           return response.text();
         }).then(async function (result) {
@@ -44,8 +44,8 @@ window.addEventListener("load", async function() {
         new_child.children[0].innerHTML += folder_name[i]; //title 
         epoch = 80; 
         for (let j=0; j<5;j++){
-          //video_path = "./epoch"+str(epoch+j)+"/"+folder_name[i] + ".gif";
-          //video_arr[j].src = video_path;
+          video_path = "./epoch"+str(epoch+j)+"/"+folder_name[i] + ".gif";
+          video_arr[j].src = video_path;
         }
         text_arr = parent.document.querySelectorAll("p")
         await loadJson(text_arr[0], json_path);
