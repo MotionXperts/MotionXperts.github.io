@@ -42,13 +42,14 @@ window.addEventListener("load", async function() {
         video_arr = parent.document.querySelectorAll("img")
         //fill the content of video, title, and description      
         new_child.children[0].innerHTML += folder_name[i]; //title 
+
         epoch = 80; 
         for (let j=0; j<5;j++){
           video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           video_arr[j].src = video_path;
         }
         text_arr = parent.document.querySelectorAll("h4")
-        await loadJson(text_arr[0], json_path);
+        await loadJson(new_child.children[1], json_path);
         prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
             epoch_path = result_epoch + "/results_epoch" + (epoch+j).toString() + ".json"; 
