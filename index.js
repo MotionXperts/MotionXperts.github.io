@@ -49,10 +49,10 @@ window.addEventListener("load", async function() {
         }
         text_arr = parent.document.querySelectorAll("p")
         await loadJson(text_arr[0], json_path);
+        prediction_arr = parent.document.querySelectorAll("h3")
         for (let j=0; j<5;j++){
-            epoch = j + 80;
-            epoch_path = result_epoch + "/results_epoch" + epoch + ".json"; 
-            await loadEpoch(text_arr[1+j], epoch_path,folder_name[i]);
+            epoch_path = result_epoch + "/results_epoch" + (epoch+j).toString() + ".json"; 
+            await loadEpoch(prediction_arr[j], epoch_path,folder_name[i]);
         }
         //append new child to container
         container.appendChild(new_child);
