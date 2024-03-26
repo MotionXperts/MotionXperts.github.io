@@ -47,9 +47,9 @@ window.addEventListener("load", async function() {
           video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           video_arr[j].src = video_path;
         }
-        text_arr = parent.document.querySelectorAll("p")
+        text_arr = parent.document.querySelectorAll("h4")
         await loadJson(text_arr[0], json_path);
-        prediction_arr = parent.document.querySelectorAll("h3")
+        prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
             epoch_path = result_epoch + "/results_epoch" + (epoch+j).toString() + ".json"; 
             await loadEpoch(prediction_arr[j], epoch_path,folder_name[i]);
