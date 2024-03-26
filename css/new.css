@@ -1,0 +1,100 @@
+@property --k {
+	syntax: '<number>';
+	initial-value: 0;
+	inherits: false
+}
+
+html, body { display: grid }
+body {
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
+  }
+html { height: 100% }
+
+body { background: #000 }
+
+svg[height='0'] { position: absolute }
+
+
+
+h1 { /* no pseudo needed */
+	--k: 0;
+	place-self: center;
+	background: 
+		linear-gradient(90deg, 
+				hsl(calc(var(--k)*1turn), 95%, 65%), 
+				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+	-webkit-background-clip: text;
+					background-clip: text;
+	color: transparent;
+	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
+	font-size: 100px;
+	filter: url(#f);
+	text-align: center;
+	text-transform: uppercase;
+	/* needs support for animating custom properties */
+	/* Firefox not quite there yet, but it's coming */
+	animation: k 4s linear infinite
+}
+h3 { /* no pseudo needed */
+	--k: 0;
+	place-self: center;
+	background: 
+		linear-gradient(90deg, 
+				hsl(calc(var(--k)*1turn), 95%, 65%), 
+				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+	-webkit-background-clip: text;
+					background-clip: text;
+	color: transparent;
+	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
+	font-size: 32px;
+	filter: url(#f);
+	text-align: center;
+	/* needs support for animating custom properties */
+	/* Firefox not quite there yet, but it's coming */
+	animation: k 4s linear infinite
+}
+h2 { /* no pseudo needed */
+	--k: 0;
+	place-self: center;
+	background: 
+		linear-gradient(90deg, 
+				hsl(calc(var(--k)*1turn), 95%, 65%), 
+				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+	-webkit-background-clip: text;
+					background-clip: text;
+	color: transparent;
+	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
+	font-size: 32px;
+	filter: url(#f);
+	text-align: center;
+	/* needs support for animating custom properties */
+	/* Firefox not quite there yet, but it's coming */
+	animation: k 4s linear infinite
+}
+p { /* no pseudo needed */
+	--k: 0;
+	place-self: center;
+	background: 
+		linear-gradient(90deg, 
+				hsl(calc(var(--k)*1turn), 95%, 65%), 
+				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+	-webkit-background-clip: text;
+					background-clip: text;
+	color: transparent;
+	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
+	font-size: 32px;
+	filter: url(#f);
+	text-align: center;
+	/* needs support for animating custom properties */
+	/* Firefox not quite there yet, but it's coming */
+	animation: k 4s linear infinite
+}
+@keyframes k { to { --k: 1 } }
