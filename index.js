@@ -44,7 +44,7 @@ window.addEventListener("load", async function() {
         new_child.children[0].innerHTML += folder_name[i]; //title 
         epoch = 80; 
         for (let j=0; j<5;j++){
-          video_path = "./epoch"+str(epoch+j)+"/"+folder_name[i] + ".gif";
+          video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           video_arr[j].src = video_path;
         }
         text_arr = parent.document.querySelectorAll("p")
