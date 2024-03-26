@@ -48,7 +48,6 @@ window.addEventListener("load", async function() {
           video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           video_arr[j].src = video_path;
         }
-        text_arr = parent.document.querySelectorAll("h4")
         await loadJson(new_child.children[1], json_path);
         prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
