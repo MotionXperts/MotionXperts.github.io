@@ -8,7 +8,7 @@ body {
   overflow: hidden;
 }
 #carousel #scene {
-  width: 42%;
+  width: 100%;
   margin: 40px auto 0 auto;
   transform-style: preserve-3d;
   transition: transform 0.5s;
