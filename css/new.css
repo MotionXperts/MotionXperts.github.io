@@ -121,7 +121,7 @@ h4 { /* no pseudo needed */
 
 .carousel {
     position: relative;
-    box-shadow: 0px 1px 6px rgba(0, 247, 255, 0.64);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 26px;
 }
 
@@ -199,9 +199,52 @@ h4 { /* no pseudo needed */
     display: block;
 }
 
+#carousel-21:checked ~ .control-21,
+#carousel-22:checked ~ .control-22,
+#carousel-23:checked ~ .control-23,
+#carousel-24:checked ~ .control-24,
+#carousel-25:checked ~ .control-25 {
+    display: block;
+}
 
+#carousel-31:checked ~ .control-31,
+#carousel-32:checked ~ .control-32,
+#carousel-33:checked ~ .control-33,
+#carousel-34:checked ~ .control-34,
+#carousel-35:checked ~ .control-35 {
+    display: block;
+}
 
+#carousel-41:checked ~ .control-41,
+#carousel-42:checked ~ .control-42,
+#carousel-43:checked ~ .control-43,
+#carousel-44:checked ~ .control-44,
+#carousel-45:checked ~ .control-45 {
+    display: block;
+}
 
+#carousel-51:checked ~ .control-51,
+#carousel-52:checked ~ .control-52,
+#carousel-53:checked ~ .control-53,
+#carousel-54:checked ~ .control-54,
+#carousel-55:checked ~ .control-55 {
+    display: block;
+}
+
+#carousel-61:checked ~ .control-61,
+#carousel-62:checked ~ .control-62,
+#carousel-63:checked ~ .control-63,
+#carousel-64:checked ~ .control-64,
+#carousel-65:checked ~ .control-65 {
+    display: block;
+}
+#carousel-71:checked ~ .control-71,
+#carousel-72:checked ~ .control-72,
+#carousel-73:checked ~ .control-73,
+#carousel-74:checked ~ .control-74,
+#carousel-75:checked ~ .control-75 {
+    display: block;
+}
 .carousel-indicators {
     list-style: none;
     margin: 0;
@@ -235,7 +278,53 @@ h4 { /* no pseudo needed */
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #428bca;
+    color: #000000;
+}
+
+#carousel-21:checked ~ .control-21 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-22:checked ~ .control-22 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-23:checked ~ .control-23 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-24:checked ~ .control-24 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-25:checked ~ .control-25 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
+}
+
+#carousel-31:checked ~ .control-31 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-32:checked ~ .control-32 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-33:checked ~ .control-33 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-34:checked ~ .control-34 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-35:checked ~ .control-35 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
+}
+#carousel-41:checked ~ .control-41 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-42:checked ~ .control-42 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-43:checked ~ .control-43 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-44:checked ~ .control-44 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-45:checked ~ .control-45 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
+}
+#carousel-51:checked ~ .control-51 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-52:checked ~ .control-52 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-53:checked ~ .control-53 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-54:checked ~ .control-54 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-55:checked ~ .control-55 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
+}
+
+#carousel-61:checked ~ .control-61 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-62:checked ~ .control-62 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-63:checked ~ .control-63 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-64:checked ~ .control-64 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-65:checked ~ .control-65 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
+}
+
+#carousel-71:checked ~ .control-71 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-72:checked ~ .control-72 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-73:checked ~ .control-73 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-74:checked ~ .control-74 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-75:checked ~ .control-75 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
+    color: #000000;
 }
 
 #title {
