@@ -131,7 +131,7 @@ function carouselRUN() {
           scene.style.transform = `rotateY(${curr_carousel_items_Arrey * -theta}rad)`;
 
           if (autoCarousel === "true") {
-              setTimeout(setCarouselInterval(), 3000);
+              setTimeout(setCarouselInterval(), 30000);
           }
       }, true);
   }
