@@ -41,7 +41,7 @@ window.addEventListener("load", async function() {
     "467205339415314713_0",
     "471706283780080147_2",
     "471706363236974645_0"]
-    for(let i=0; i<file_length-1; i++){
+    for(let i=0; i<7; i++){
         //json path and video path
         json_path = testFolder + "/" + folder_name[i]+"/"+folder_name[i] + ".json";         
         //clone new child
