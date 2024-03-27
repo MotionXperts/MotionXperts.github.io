@@ -137,12 +137,11 @@ h4 { /* no pseudo needed */
 }
 
 .carousel-item {
-	display: block;
-
-	
-  	/*
+	display: flex;
+	flex-direction: column;
   	justify-content: center; 
-  	position :absolute; 
+  	/*
+	position :absolute; 
 	align-items: center;
   
   	  
@@ -155,8 +154,8 @@ h4 { /* no pseudo needed */
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 
-	*/
-	position: absolute;
+	
+	position: absolute;*/
     opacity: 0;
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
