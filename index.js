@@ -34,7 +34,8 @@ async function loadText(){
 window.addEventListener("load", async function() {
     //await loadText();
     let new_child = document.getElementsByClassName("videobox"); 
-    folder_name = ["467205307287470390_0",
+    folder_name = [
+    "467205307287470390_0",
     "467205310373953653_0",
     "467205326496858477_0",
     "467205329533534401_0",
