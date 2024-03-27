@@ -82,7 +82,7 @@ function carouselRUN() {
   var scene = document.getElementById("scene");
   var carousel_items_Arrey = document.getElementsByClassName("carousel_item");
   var carousel_btn = document.getElementById("carousel_btn");
-  var n = carousel_items_Arrey.length;
+  var n = 5;//carousel_items_Arrey.length;
   var curr_carousel_items_Arrey = 0;
   var theta = Math.PI * 2 / n;
   var interval = null;
