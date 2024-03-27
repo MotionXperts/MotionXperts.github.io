@@ -33,28 +33,29 @@ async function loadText(){
 
 window.addEventListener("load", async function() {
     await loadText();
+    let new_child = document.getElementsByClassName("videobox"); 
     for(let i=0; i<file_length-1; i++){
         //json path and video path
         json_path = testFolder + "/" + folder_name[i]+"/"+folder_name[i] + ".json";         
         //clone new child
-        let container = document.getElementById("container");             
-        let new_child = container.firstElementChild.cloneNode(true);    
+        //let container = document.getElementById("container");             
+        //let new_child = container.firstElementChild.cloneNode(true);    
         //video_arr = parent.document.querySelectorAll("img")
         //fill the content of video, title, and description      
-        new_child.children[0].innerHTML += folder_name[i]; //title 
-        await loadJson(new_child.children[1], json_path);
+        new_child[i].children[0].innerHTML += folder_name[i]; //title 
+        await loadJson(new_child[i].children[1], json_path);
         epoch = 80; 
         for (let j=0; j<5;j++){
           video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
-          new_child.children[2].children[0].children[0].children[j].children[1].src = video_path;
+          new_child[i].children[2].children[0].children[0].children[j].children[1].src = video_path;
         }
         //prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
             epoch_path = result_epoch + "/results_epoch" + (epoch+j).toString() + ".json"; 
-            await loadEpoch(new_child.children[2].children[0].children[0].children[j].children[0], epoch_path,folder_name[i]);
+            await loadEpoch(new_child[i].children[2].children[0].children[0].children[j].children[0], epoch_path,folder_name[i]);
         }
         //append new child to container
-        container.appendChild(new_child);
+        //container.appendChild(new_child);
     }
 })
 
