@@ -54,7 +54,7 @@ window.addEventListener("load", async function() {
         await loadJson(new_child[i].children[0].children[1], json_path);
         epoch = 80; 
         for (let j=0; j<5;j++){
-          video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
+          video_path = "https://github.com/MotionXperts/MotionXperts.github.io/blob/main/epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           new_child[i].children[0].children[2].children[0].children[1+j*2].children[1].src = video_path;
         }
         //prediction_arr = parent.document.querySelectorAll("p")
