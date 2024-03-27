@@ -32,7 +32,7 @@ async function loadText(){
 
 
 window.addEventListener("load", async function() {
-    //await loadText();
+    await loadText();
     let new_child = document.getElementsByClassName("videobox"); 
     folder_name = [
     "467205307287470390_0",
