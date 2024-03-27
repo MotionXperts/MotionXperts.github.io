@@ -55,12 +55,12 @@ window.addEventListener("load", async function() {
         epoch = 80; 
         for (let j=0; j<5;j++){
           video_path = "./epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
-          new_child[i].children[0].children[2].children[0].children[1].children[j].children[1].src = video_path;
+          new_child[i].children[0].children[2].children[0].children[1+j*2].children[1].src = video_path;
         }
         //prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
             epoch_path = result_epoch + "/results_epoch" + (epoch+j).toString() + ".json"; 
-            await loadEpoch(new_child[i].children[0].children[2].children[0].children[1].children[j].children[0], epoch_path,folder_name[i]);
+            await loadEpoch(new_child[i].children[0].children[2].children[0].children[1+j*2].children[0], epoch_path,folder_name[i]);
         }
         //append new child to container
         //container.appendChild(new_child);
