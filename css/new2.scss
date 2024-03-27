@@ -19,7 +19,7 @@ body {
     #scene {
       width: $slide-width;
       margin: 40px auto 0 auto;
-      transform-style: preserve-3d;
+      //transform-style: preserve-3d;
       transition: transform 0.5s;
   
       .carousel_item {
