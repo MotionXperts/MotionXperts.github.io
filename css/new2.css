@@ -4,7 +4,7 @@ body {
 }
 
 #carousel {
-  perspective: 4000px;
+  perspective: 10000px;
   overflow: hidden;
 }
 #carousel #scene {
