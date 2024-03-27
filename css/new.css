@@ -188,22 +188,23 @@ h4 { /* no pseudo needed */
 }
 
 .carousel-control.prev {
-
-    left: 6%;
+    left: 1%;
 	font-size: 60px;
+	bottom: 40%;
 	font-weight: bold;
-	transform: scale(1.5);
+	transform: scale(1.3);
 }
 .carousel-control.next {
-    right: 6%;
+    right: 1%;
 	font-size: 60px;
+	bottom: 40%;
 	font-weight: bold;
-	transform: scale(1.5);
+	transform: scale(1.3);
 }
 
 .carousel-control:hover {
-    background: rgba(255, 251, 0, 0.8);
-    color: #aaaaaa;
+    background: rgb(255, 255, 0);
+    color: #000000;
 }
 
 #carousel-1:checked ~ .control-1,
@@ -280,14 +281,14 @@ h4 { /* no pseudo needed */
 }
 
 .carousel-bullet {
-    color: #fff;
+    color: yellow;
     cursor: pointer;
     display: block;
     font-size: 35px;
 }
 
 .carousel-bullet:hover {
-    color: #aaaaaa;
+    color: rgb(252, 194, 128);
 }
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -295,7 +296,7 @@ h4 { /* no pseudo needed */
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 
 #carousel-21:checked ~ .control-21 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -303,7 +304,7 @@ h4 { /* no pseudo needed */
 #carousel-23:checked ~ .control-23 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-24:checked ~ .control-24 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-25:checked ~ .control-25 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 
 #carousel-31:checked ~ .control-31 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -311,21 +312,21 @@ h4 { /* no pseudo needed */
 #carousel-33:checked ~ .control-33 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-34:checked ~ .control-34 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-35:checked ~ .control-35 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 #carousel-41:checked ~ .control-41 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-42:checked ~ .control-42 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-43:checked ~ .control-43 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-44:checked ~ .control-44 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-45:checked ~ .control-45 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 #carousel-51:checked ~ .control-51 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-52:checked ~ .control-52 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-53:checked ~ .control-53 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-54:checked ~ .control-54 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-55:checked ~ .control-55 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 
 #carousel-61:checked ~ .control-61 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -333,7 +334,7 @@ h4 { /* no pseudo needed */
 #carousel-63:checked ~ .control-63 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-64:checked ~ .control-64 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-65:checked ~ .control-65 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 
 #carousel-71:checked ~ .control-71 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -341,7 +342,7 @@ h4 { /* no pseudo needed */
 #carousel-73:checked ~ .control-73 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-74:checked ~ .control-74 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-75:checked ~ .control-75 ~ .carousel-indicators li:nth-child(5) .carousel-bullet {
-    color: #000000;
+    color: #ff00dd;
 }
 
 #title {
