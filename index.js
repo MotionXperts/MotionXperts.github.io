@@ -57,9 +57,9 @@ window.addEventListener("load", async function() {
           video_path = "/epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           model_view_path = "/HTML/epoch"+(epoch+j).toString()+"/"+folder_name[i] + "_model_view.html"; 
           head_view_path = "/HTML/epoch"+(epoch+j).toString()+"/"+folder_name[i] + "_head_view.html";
-          new_child[i].children[0].children[2].children[0].children[1+j*2].children[1].src = video_path;
-          new_child[i].children[0].children[2].children[0].children[1+j*2].children[2].src = model_view_path;
-          new_child[i].children[0].children[2].children[0].children[1+j*2].children[3].src = head_view_path;
+          new_child[i].children[0].children[2].children[0].children[1+j*2].children[3].src = video_path;
+          new_child[i].children[0].children[2].children[0].children[1+j*2].children[1].href = model_view_path;
+          new_child[i].children[0].children[2].children[0].children[1+j*2].children[2].href = head_view_path;
         }
         //prediction_arr = parent.document.querySelectorAll("p")
         for (let j=0; j<5;j++){
