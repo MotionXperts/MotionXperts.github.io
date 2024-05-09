@@ -1,5 +1,5 @@
 const testFolder = './test_folder';
-const result_epoch = './result_epoch/skating225';
+const result_epoch = './result_epoch';
 let file_length, folder_name;
 
 async function loadJson(node, path) {    
@@ -54,7 +54,7 @@ window.addEventListener("load", async function() {
         await loadJson(new_child[i].children[0].children[1], json_path);
         epoch = 80; 
         for (let j=0; j<5;j++){
-          video_path = "/epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
+          video_path = "/Video/epoch"+(epoch+j).toString()+"/"+folder_name[i] + ".gif";
           model_view_path = "/HTML/epoch"+(epoch+j).toString()+"/"+folder_name[i] + "_model_view.html"; 
           head_view_path = "/HTML/epoch"+(epoch+j).toString()+"/"+folder_name[i] + "_head_view.html";
           new_child[i].children[0].children[2].children[0].children[1+j*2].children[3].src = video_path;
