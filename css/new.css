@@ -30,12 +30,14 @@ svg[height='0'] { position: absolute }
 h1 { /* no pseudo needed */
 	--k: 0;
 	place-self: center;
+	/* 
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 100px;
@@ -49,12 +51,14 @@ h1 { /* no pseudo needed */
 h3 { /* no pseudo needed */
 	--k: 0;
 	place-self: center;
+	/*
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
@@ -67,12 +71,14 @@ h3 { /* no pseudo needed */
 h2 { /* no pseudo needed */
 	--k: 0;
 	place-self: center;
+	/*
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
@@ -85,12 +91,14 @@ h2 { /* no pseudo needed */
 p { /* no pseudo needed */
 	--k: 0;
 	place-self: center;
+	/*
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
@@ -100,15 +108,17 @@ p { /* no pseudo needed */
 	/* Firefox not quite there yet, but it's coming */
 	animation: k 4s linear infinite
 }
-a { /* no pseudo needed */
+a { 
 	--k: 0;
 	place-self: center;
+	/*
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/ 
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
@@ -118,15 +128,17 @@ a { /* no pseudo needed */
 	/* Firefox not quite there yet, but it's coming */
 	animation: k 4s linear infinite
 }
-h4 { /* no pseudo needed */
+h4 { 
 	--k: 0;
 	place-self: center;
+	/*
 	background: 
 		linear-gradient(90deg, 
 				hsl(calc(var(--k)*1turn), 95%, 65%), 
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
+	*/ 
 	color: transparent;
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
