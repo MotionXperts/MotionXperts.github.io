@@ -29,8 +29,8 @@ h1 { /* no pseudo needed */
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 100px;
 	filter: url(#f);
@@ -50,8 +50,8 @@ h3 { /* no pseudo needed */
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
 	filter: url(#f);
@@ -70,8 +70,8 @@ h2 { /* no pseudo needed */
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
 	filter: url(#f);
@@ -90,8 +90,8 @@ p { /* no pseudo needed */
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
 	filter: url(#f);
@@ -110,8 +110,8 @@ a {
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/ 
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
 	filter: url(#f);
@@ -130,8 +130,8 @@ h4 {
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
 	-webkit-background-clip: text;
 					background-clip: text;
-	*/ 
 	color: transparent;
+	*/
 	font: 900 clamp(.875em, 7.25vw, 5em) arial black, sans-serif;
 	font-size: 32px;
 	filter: url(#f);
@@ -374,7 +374,7 @@ h4 {
     margin: 0px auto;
     text-align: center;
     font-size: 27px;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
