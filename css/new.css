@@ -182,11 +182,16 @@ h4 {
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 }
-
+.carousel-item iframe {
+	height: 560px;
+	overflow-y: hidden;
+	z-index: 2;
+}
 .carousel-item img {
     display: block;
     height: auto;
     max-width: 100%;
+	z-index: 1;
 }
 
 .carousel-control {
@@ -380,5 +385,14 @@ h4 {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
+.carousel-control.prev {
+    position: absolute;
+    top: 1000px;
+    left: 10px;
+}
+.carousel-control.next {
+	position: absolute;
+	top: 1000px;
+}
 
 @keyframes k { to { --k: 1 } }
